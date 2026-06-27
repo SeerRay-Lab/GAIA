@@ -1,5 +1,7 @@
 # GAIA: A Data Flywheel System for Training GUI Test-Time Scaling Critic Models
 
+![GAIA Pipeline](assets/GAIA.pdf)
+
 ## Overview
 
 This repository presents **GAIA**, a data flywheel system designed to train **GUI action critic models** that improve the reliability and performance of GUI agents at test time.
