@@ -1,6 +1,12 @@
-# GAIA: A Data Flywheel System for Training GUI Test-Time Scaling Critic Models
+<p align="center">
+  <img src="assets/logo.jpg" width="120">
+</p>
 
-![GAIA Pipeline](assets/GAIA.pdf)
+<h1 align="center">
+  GAIA: A Data Flywheel System for Training GUI Test-Time Scaling Critic Models
+</h1>
+
+![GAIA Pipeline](assets/GAIA.png)
 
 ## Overview
 
