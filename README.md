@@ -6,13 +6,13 @@
   GAIA: A Data Flywheel System for Training GUI Test-Time Scaling Critic Models
 </h1>
 
-![GAIA Pipeline](assets/GAIA.png)
-
 ## Overview
 
 This repository presents **GAIA**, a data flywheel system designed to train **GUI action critic models** that improve the reliability and performance of GUI agents at test time.
 
 Modern GUI agents powered by large vision-language models (LVLMs) have demonstrated strong capabilities in understanding instructions and interacting with interfaces. However, a critical limitation remains: **irreversible errors**—a single incorrect action (e.g., mis-click or wrong input) can derail the entire task.
+
+![GAIA Pipeline](assets/GAIA.png)
 
 To address this, GAIA introduces a **critic-driven test-time scaling framework**, where an **Intuitive Critic Model (ICM)** evaluates candidate actions before execution. The system operates in a **data flywheel loop**:
 
