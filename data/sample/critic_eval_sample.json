@@ -1,0 +1,59 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert in evaluating the performance of a phone operating agent. \nThe agent is designed to help a user to complete a task or retrieve information from the phone. \nGiven the user's task instruction, current action and current screenshot, your goal is to decide whether the agent's current action is correct or not. \nEach action in the sequence is preceded by a corresponding screenshot that captures the context in which the action occurs.\n## Evaluation Criteria \nWhether the agent's current action is correct and corresponding to the user's task instruction.\n## IMPORTANT\n1. An action always follows a corresponding screenshot (even if only the last few are provided). \n2. If the current action is a tap on the screen, the point where the action is clicked is marked with a red circle on the screenshot. \n3. You should whether answer [correct] or [wrong].\n## Input\nThe input is given next, including global_task_instruction, action_history, current_action, and screenshot.\n"
+      },
+      {
+        "role": "user",
+        "content": "The goal of the task (instruction): Start by checking out a detailed book review for 'The Four Winds' by Kristin Hannah on Quora. Once you're satisfied with the review, head over to Google Play Books & Audiobooks to purchase either the ebook or a physical copy.\nAction (plan) history: Step 1: Return to the home screen to begin searching for 'The Four Winds' by Kristin Hannah.\nStep 2: Click on the Quora app icon to start searching for a detailed book review.\nStep 3: Click the back button to return to the previous screen or search interface on Quora.\nStep 4: Use the back button to return to the previous screen and search for 'The Four Winds' by Kristin Hannah.\nStep 5: Click on the search bar to modify the search input and type 'The Four Winds by Kristin Hannah book review'.\"\nStep 6: Click on the search bar at the top to start searching for 'The Four Winds by Kristin Hannah book review'.\nStep 7: Type 'The Four Winds by Kristin Hannah book review' into the search bar.\nStep 8: Press the search button to start searching for 'The Four Winds by Kristin Hannah book review' on Quora.\nStep 9: Click on the review titled 'The Four Winds by Kristin Hannah: A Book Review' to read more.\nCurrent action of the agent: Home\nScreenshot: <image>"
+      },
+      {
+        "role": "assistant",
+        "content": "correct"
+      }
+    ],
+    "images": [
+      "data/sample/images/all_train_data_with_btl_action_high_w_judge_0552207058738255_9.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert in evaluating the performance of a phone operating agent. \nThe agent is designed to help a user to complete a task or retrieve information from the phone. \nGiven the user's task instruction, current action and current screenshot, your goal is to decide whether the agent's current action is correct or not. \nEach action in the sequence is preceded by a corresponding screenshot that captures the context in which the action occurs.\n## Evaluation Criteria \nWhether the agent's current action is correct and corresponding to the user's task instruction.\n## IMPORTANT\n1. An action always follows a corresponding screenshot (even if only the last few are provided). \n2. If the current action is a tap on the screen, the point where the action is clicked is marked with a red circle on the screenshot. \n3. You should whether answer [correct] or [wrong].\n## Input\nThe input is given next, including global_task_instruction, action_history, current_action, and screenshot.\n"
+      },
+      {
+        "role": "user",
+        "content": "The goal of the task (instruction): Start by checking out a detailed book review for 'The Four Winds' by Kristin Hannah on Quora. Once you're satisfied with the review, head over to Google Play Books & Audiobooks to purchase either the ebook or a physical copy.\nAction (plan) history: Step 1: Return to the home screen to begin searching for 'The Four Winds' by Kristin Hannah.\nStep 2: Click on the Quora app icon to start searching for a detailed book review.\nStep 3: Click the back button to return to the previous screen or search interface on Quora.\nStep 4: Use the back button to return to the previous screen and search for 'The Four Winds' by Kristin Hannah.\nStep 5: Click on the search bar to modify the search input and type 'The Four Winds by Kristin Hannah book review'.\"\nStep 6: Click on the search bar at the top to start searching for 'The Four Winds by Kristin Hannah book review'.\nStep 7: Type 'The Four Winds by Kristin Hannah book review' into the search bar.\nStep 8: Press the search button to start searching for 'The Four Winds by Kristin Hannah book review' on Quora.\nStep 9: Click on the review titled 'The Four Winds by Kristin Hannah: A Book Review' to read more.\nStep 10: Return to the home screen to begin accessing Google Play Books.\nStep 11: Click on the 'Play Books' app to open it.\nStep 12: Click on the search icon to start searching for 'The Four Winds' by Kristin Hannah.\nStep 13: Type 'The Four Winds' by Kristin Hannah into the search bar.\nStep 14: Click the magnifying glass icon to start the search.\nCurrent action of the agent: Tap at [440, 400]\nScreenshot: <image>"
+      },
+      {
+        "role": "assistant",
+        "content": "wrong"
+      }
+    ],
+    "images": [
+      "data/sample/images/all_train_data_with_btl_action_high_w_judge_0552207058738255_14.jpg"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are an expert in evaluating the performance of a phone operating agent. \nThe agent is designed to help a user to complete a task or retrieve information from the phone. \nGiven the user's task instruction, current action and current screenshot, your goal is to decide whether the agent's current action is correct or not. \nEach action in the sequence is preceded by a corresponding screenshot that captures the context in which the action occurs.\n## Evaluation Criteria \nWhether the agent's current action is correct and corresponding to the user's task instruction.\n## IMPORTANT\n1. An action always follows a corresponding screenshot (even if only the last few are provided). \n2. If the current action is a tap on the screen, the point where the action is clicked is marked with a red circle on the screenshot. \n3. You should whether answer [correct] or [wrong].\n## Input\nThe input is given next, including global_task_instruction, action_history, current_action, and screenshot.\n"
+      },
+      {
+        "role": "user",
+        "content": "The goal of the task (instruction): Locate a sales executive position using LinkedIn: Jobs & Business News, then document the company's name in Google Keep.\nAction (plan) history: Step 1: Open the LinkedIn app to begin searching for a sales executive position.\nStep 2: Tap on the 'Jobs' icon in the bottom navigation menu to start searching for sales executive positions.\nStep 3: Type 'sales executive' into the search bar.\nStep 4: Click on 'See all results' to proceed to the list of job postings.\nCurrent action of the agent: Tap at [686, 849]\nScreenshot: <image>"
+      },
+      {
+        "role": "assistant",
+        "content": "wrong"
+      }
+    ],
+    "images": [
+      "data/sample/images/all_train_data_with_btl_action_high_w_judge_5976590300638910_4.jpg"
+    ]
+  }
+]

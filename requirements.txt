@@ -1,0 +1,21 @@
+# Core: critic inference, benchmarks, and SFT data generation
+torch==2.5.1
+torchvision==0.20.1
+transformers==4.51.3
+accelerate==1.7.0
+qwen-vl-utils==0.0.11
+peft==0.15.2
+numpy==1.26.4
+pillow==11.2.1
+opencv-python-headless==4.11.0.86
+tqdm==4.67.1
+
+# Training (SFT + GRPO) — ms-swift provides the `swift` CLI/library used by scripts/.
+# GRPO additionally needs a custom reward-function plugin (see README "GRPO note").
+ms-swift
+deepspeed==0.16.9
+trl==0.17.0
+vllm==0.7.3
+
+# Optional: FlashAttention 2 (attn_implementation="flash_attention_2"); install after torch.
+flash-attn==2.7.4.post1
