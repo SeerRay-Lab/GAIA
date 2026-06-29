@@ -174,5 +174,4 @@ If you find this work useful, please consider citing:
 
 ## License
 
-
----
+This project is released under the [Apache 2.0 License](./LICENSE).
