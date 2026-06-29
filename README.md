@@ -6,6 +6,12 @@
   GAIA: A Data Flywheel System for Training GUI Test-Time Scaling Critic Models
 </h1>
 
+<p align="center">
+  📄 <a href="https://arxiv.org/abs/2601.18197">arXiv</a> &nbsp;|&nbsp;
+  🌟 <a href="https://github.com/SeerRay-Lab/GAIA">GitHub</a> &nbsp;|&nbsp;
+  🤗 <a href="https://huggingface.co/datasets/SeerRay-Lab/GAIA-Dataset-v1.0">Dataset</a>
+</p>
+
 ## Overview
 
 This repository presents **GAIA**, a data flywheel system designed to train **GUI action critic models** that improve the reliability and performance of GUI agents at test time.
