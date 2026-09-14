@@ -10,6 +10,7 @@
   📄 <a href="https://arxiv.org/abs/2601.18197">arXiv</a> &nbsp;|&nbsp;
   🌟 <a href="https://github.com/SeerRay-Lab/GAIA">GitHub</a> &nbsp;|&nbsp;
   🤗 <a href="https://huggingface.co/datasets/SeerRay-Lab/GAIA-Dataset-v1.0">Dataset</a>
+  🤗 <a href="https://huggingface.co/SeerRay-Lab/ICM-r2">Model</a>
 </p>
 
 ## Overview
